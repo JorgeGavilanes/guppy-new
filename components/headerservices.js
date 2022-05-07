@@ -18,7 +18,7 @@ export default function HeaderServices(){
                     <div className={styles.serviceS1}>
                         <img
                             className={styles.serviceS1}
-                            src="https://guppydigital.com/media/src/SitiosWeb_principal.svg"
+                            src="https://raw.githubusercontent.com/JorgeGavilanes/GuppyMedios/gh-pages/sitiosWeb-icon-01.svg"
                         />
                     </div>
                     <div className={styles.serviceS2}>
@@ -31,7 +31,7 @@ export default function HeaderServices(){
                     <div className={styles.serviceS1}>
                         <img
                             className={styles.serviceS1}
-                            src="https://guppydigital.com/media/src/ImagenCorporativa_principal.svg"
+                            src="https://raw.githubusercontent.com/JorgeGavilanes/GuppyMedios/gh-pages/imagenCorporativa-icon-01.svg"
                         />
                     </div>
                     <div className={styles.serviceS2}>
@@ -44,7 +44,7 @@ export default function HeaderServices(){
                     <div className={styles.serviceS1}>
                         <img
                             className={styles.serviceS1}
-                            src="https://guppydigital.com/media/src/EdicionVideos_principal.svg"
+                            src="https://raw.githubusercontent.com/JorgeGavilanes/GuppyMedios/gh-pages/softwaresAdministrativos-icon-01.svg"
                         />
                     </div>
                     <div className={styles.serviceS2}>

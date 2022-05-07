@@ -17,9 +17,22 @@ icons:
 orden: 4
 ---
 
-# Animación taza rota
-## Subtitulo
-Aqui tu escribes
-que no hay salto de linea
+### Modelado y animación 3D
 
-cuando hay doble enter
+Somos GuppyDigital, un equipo de apasionados por la tecnología y el mundo digital en constante aprendizaje.
+
+>Como equipo nos desafiamos a realizar un modelado 3D de una taza y su animación quebrándose usando el software Blender.
+
+Para este proyecto tuvimos que aprender las bases del modelado 3D con Blender, una vez hecha nuestra taza pasamos a la animación.
+
+### Modelado 3D
+
+Para el modelado 3D usamos la imagen de una taza para guiarnos en el modelado y le agregamos las físicas. Al principio
+nos gustó el resultado, la animación se veía bastante bien pero ¿Por qué no mejorarlo?
+
+### Animación
+
+![Taza rota](https://raw.githubusercontent.com/JorgeGavilanes/GuppyMedios/gh-pages/tazaRota.gif)
+
+Agregamos una foto de fondo y una textura que simulaba una mesa, cambiamos el material del objeto dando la apariencia de vidrio,
+nuestra taza está terminada :3

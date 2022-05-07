@@ -151,7 +151,7 @@
 }
 @media (max-width: 270px) {
     .footer{
-        padding: 30px 10px;
+        padding: 30px 10px 60px 10px;
     }
 }
 /*230 es el limite soportado*/
