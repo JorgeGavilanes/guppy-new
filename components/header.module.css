@@ -1,0 +1,147 @@
+.header{
+    display: flex;
+    align-items: center;
+    padding: 0 65px;
+    font-family: 'Poppins', sans-serif;
+    transition: all 300ms ease;
+}
+
+.headerTexts,
+.headerImg{
+    width: 50%;
+}
+
+.headerImgDark{
+    display: none;
+}
+
+.headerTexts{
+    color: #17202A;
+}
+
+.headerTitle{
+    font-size: 38px;
+    font-weight: 700;
+}
+
+.headerDescription{
+    margin: 20px 0;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.circle{
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    top: 220px;
+    left: 0;
+    border-radius: 50%;
+    filter: blur(50px);
+    background: #A1C4FD;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #A1C4FD, #C2E9FB);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #A1C4FD, #C2E9FB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    z-index: -1;
+}
+
+.circle:nth-child(2n){
+    top: 250px;
+    left: 60%;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+}
+
+.px25{
+    width: 25px;
+}
+/* ____________________ */
+/* ____________________ */
+/* -------------------- */
+/*      Responsive      */
+/* -------------------- */
+/* ____________________ */
+/* ____________________ */
+@media (max-width: 1000px) {
+    .headerTitle{
+        font-size: 34px;
+    }
+}
+@media (max-width: 900px) {
+    .headerTitle{
+        font-size: 30px;
+    }
+    .circle{
+        left: -10%;
+    }
+    .circle:nth-child(2n){
+        top: 125px;
+        left: 50%;
+    }
+}
+@media (max-width: 860px) {
+    .header{
+        padding: 0 25px;
+    }
+}
+@media (max-width: 760px) {
+    .header{
+        display: block;
+    }
+    .headerTexts,
+    .headerImg{
+        width: 100%;
+    }
+    .headerTexts{
+        margin-top: 35px;
+        text-align: center;
+    }
+    .buttons{
+        justify-content: center;
+    }
+    .circle{
+        top: 200px;
+        left: 0;
+    }
+    .circle:nth-child(2n){
+        top: 550px;
+        left: 30%;
+    }
+}
+@media (max-width: 550px) {
+    .circle{
+        top: 0;
+        left: 0;
+    }
+    .circle:nth-child(2n){
+        top: 400px;
+        left: 10%;
+    }
+}
+@media (max-width: 390px) {
+    .circle{
+        width: 250px;
+        height: 250px;
+    }
+    .headerTitle{
+        font-size: 26px;
+    }
+    
+    .headerDescription{
+        margin: 10px 0 15px 0;
+        font-size: 18px;
+    }
+    .buttons{
+        flex-direction: column;
+    }
+    .px25{
+        height: 15px;
+    }
+}
+@media (max-width: 290px) {
+    .circle:nth-child(2n){
+        left: 0%;
+    }
+}

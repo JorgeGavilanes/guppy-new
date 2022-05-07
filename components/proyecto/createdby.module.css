@@ -1,0 +1,21 @@
+.createdby{
+    display: flex;
+    align-items: center;
+}
+
+.date{
+    font-size: 18px;
+    color: #B3B6B7;
+}
+/* ____________________ */
+/* ____________________ */
+/* -------------------- */
+/*      Responsive      */
+/* -------------------- */
+/* ____________________ */
+/* ____________________ */
+@media (max-width: 1200px) {
+    .createdby{
+        display: none;
+    }
+}

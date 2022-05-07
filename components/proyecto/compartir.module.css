@@ -1,0 +1,72 @@
+.divisor{
+    margin: 50px 0;
+    background: #2598DD;
+    border-color: #2598DD;
+    border-style: solid;
+}
+
+.compartir{
+    text-align: center;
+}
+
+.texto{
+    line-height: 0;
+}
+
+.compartirContainer{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    margin: 0 auto;
+    font-size: 16px;
+    color: #17202A;
+}
+
+.icon{
+    width: 50px;
+    height: 50px;
+    margin-top: 15px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+    color: #17202A;
+    text-decoration: none;
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.15);
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.15);
+    transition: all 300ms ease;
+}
+
+.icon:hover{
+    color: #fff;
+}
+/* ____________________ */
+/* ____________________ */
+/* -------------------- */
+/*      Responsive      */
+/* -------------------- */
+/* ____________________ */
+/* ____________________ */
+@media (max-width: 900px) {
+    .divisor{
+        margin: 15px 0;
+    }
+    .icon{
+        margin-top: 0;
+        margin-bottom: 15px;
+    }
+}
+@media (max-width: 700px) {
+    .compartirContainer{
+        width: 100%;
+    }
+}
+@media (max-width: 270px) {
+    .icon{
+        width: 35px;
+        height: 35px;
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,118 @@
+.expectation{
+    display: flex;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    justify-content: space-between;
+    color: #17202A;
+    padding: 30px 0;
+}
+
+.expectationTitle{
+    font-size: 24px;
+}
+
+.expectationContentImg{
+    width: 55%;
+    height: auto;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+    -webkit-box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+}
+
+.expectationImg{
+    width: 100%;
+    -webkit-transform: scale(1.03);
+    transform: scale(1.03);
+	-webkit-transition: all 300ms ease;
+	transition: all 300ms ease;
+}
+
+.expectationImg:hover{
+    -webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.mL{
+    margin: auto;
+}
+
+.expectationDescription{
+    margin: 28px 0;
+    max-width: 375px;
+}
+.eCIShow{
+    display: none;
+}
+/* ____________________ */
+/* ____________________ */
+/* -------------------- */
+/*      Responsive      */
+/* -------------------- */
+/* ____________________ */
+/* ____________________ */
+@media (max-width: 1200px) {
+    .expectationContentImg{
+        width: 50%;
+    }
+    .expectationImg{
+        -webkit-transform: scale(1.05);
+        transform: scale(1.05);
+    }
+}
+@media (max-width: 1000px) {
+    .eR{
+        flex-direction: row-reverse;
+    }
+    .eR header,
+    .mL{
+        margin: auto;
+        width: 50%;
+        padding-left: 30px;
+    }
+    .expectationTitle{
+        margin-top: 0;
+        margin-bottom: 15px;
+    }
+    .expectationDescription{
+        margin: 15px 0;
+    }
+}
+@media (max-width: 860px) {
+    .expectation{
+        padding: 15px 0;
+    }
+}
+@media (max-width: 760px) {
+    .expectation{
+        display: block;
+    }
+    .eR header,
+    .mL{
+        margin: 30px auto 15px auto;
+        width: 100%;
+        padding-left: 0;
+    }
+    .expectationContentImg{
+        width: 100%;
+    }
+    
+    .expectationImg{
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+    .expectationImg:hover{
+        -webkit-transform: scale(1.15);
+        transform: scale(1.15);
+    }
+    .eCIHide{
+        display: none;
+    }
+    .eCIShow{
+        display: block;
+    }
+    .expectationDescription{
+        max-width: 100%;
+    }
+}

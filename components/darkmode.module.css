@@ -1,0 +1,55 @@
+body.dark .navBar,
+body.dark .header,
+body.dark .brands,
+body.dark .ctaFaq{
+    background-color: #17202A;
+    transition: all 300ms ease;
+}
+
+body.dark .logoImgLight,
+body.dark .headerImgLight,
+body.dark .circle,
+body.dark .circleBottom{
+    display: none;
+}
+
+body.dark .logoImgDark,
+body.dark .iconDark,
+body.dark .headerImgDark{
+    display: block;
+}
+
+body.dark .logoText{
+    color: #fff;
+    font-weight: 500;
+}
+
+body.dark .route,
+body.dark .iconDark,
+body.dark .icon,
+body.dark .headerDescription,
+body.dark .expectationDescription,
+body.dark .ctaDescription,
+body.dark .faqAnswer{
+    color: rgba(255, 255, 255, 0.8);
+    transition: all 300ms ease;
+}
+
+body.dark .route:hover,
+body.dark .icon:hover,
+body.dark .headerTitle,
+body.dark .title,
+body.dark .expectationTitle,
+body.dark .row-title-text,
+body.dark .arrow-image svg path:first-child,
+body.dark .servicesTitle{
+    color: #fff;
+    fill: #fff;
+    transition: all 300ms ease;
+}
+
+body.dark .expectations,
+body.dark .services{
+    background-color: #0c0c0c;
+    transition: all 300ms ease;
+}

@@ -1,0 +1,66 @@
+.services{
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--dark-white);
+    padding: 60px 65px;
+}
+
+.servicesContainer{
+    text-align: center;
+}
+
+.servicesTitle{
+    font-weight: 500;
+    margin: 5px 0;
+}
+
+.service{
+    padding: 35px 0;
+    transition: all 300ms ease;
+}
+
+.service:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 0 15px 5px rgba(0,0,0,.05);
+    -webkit-box-shadow: 0 0 15px 5px rgba(0,0,0,.05);
+    -moz-box-shadow: 0 0 15px 5px rgba(0,0,0,.05);
+}
+
+.allServicesContainer{
+    display: flex;
+    text-align: center;
+    width: 100%;
+}
+
+.allService{
+    max-width: 30%;
+}
+
+/* ____________________ */
+/* ____________________ */
+/* -------------------- */
+/*      Responsive      */
+/* -------------------- */
+/* ____________________ */
+/* ____________________ */
+
+@media (max-width: 900px) {
+    .services{
+        padding: 30px 25px;
+    }
+}
+@media (max-width: 700px) {
+    .service{
+        padding: 0;
+        margin-bottom: 15px;
+    }
+}
+@media (max-width: 296px) {
+    .service{
+        margin-bottom: 0;
+    }
+}
+@media (max-width: 270px) {
+    .services{
+        padding: 25px 10px;
+    }
+}

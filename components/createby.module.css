@@ -1,0 +1,41 @@
+.createby{
+    display: flex;
+}
+.createby_containerImg{
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    border: solid 1px #2598DD;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 12px;
+}
+.createby_img{
+    width: 32px;
+    margin: auto;
+    transition: all 300ms ease;
+}
+.createby_img:hover{
+    width: 35px;
+}
+.createby_title{
+    font-weight: 500;
+    color: #17202a;
+}
+.createby_date{
+    color: #676767;
+}
+/* ____________________ */
+/* ____________________ */
+/* -------------------- */
+/*      Responsive      */
+/* -------------------- */
+/* ____________________ */
+/* ____________________ */
+@media (max-width: 290px) {
+    .createby{
+        display: none;
+    }
+}

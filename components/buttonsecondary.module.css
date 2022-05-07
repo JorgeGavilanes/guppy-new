@@ -1,0 +1,23 @@
+.buttonSecondary{
+    color: #2598DD;
+    text-decoration: none;
+    border-radius: 25px;
+
+    transition: all 300ms ease;
+}
+
+.arrow{
+    font-size: 12px;
+}
+
+.space{
+    display: none;
+}
+
+.buttonSecondary:hover{
+    color: #008ADD;
+}
+
+.buttonSecondary:hover > .space{
+    display: inline;
+}

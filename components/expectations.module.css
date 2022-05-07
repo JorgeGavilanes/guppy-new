@@ -1,0 +1,32 @@
+.expectations{
+    padding: 60px 65px;
+}
+
+.botonCenter{
+    text-align: center;
+    margin-top: 38px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ____________________ */
+/* ____________________ */
+/* -------------------- */
+/*      Responsive      */
+/* -------------------- */
+/* ____________________ */
+/* ____________________ */
+@media (max-width: 1000px) {
+    .expectations{
+        padding: 30px 65px;
+    }
+}
+@media (max-width: 860px) {
+    .expectations{
+        padding: 25px;
+    }
+}
+@media (max-width: 760px) {
+    .botonCenter{
+        margin-top: 0;
+    }
+}

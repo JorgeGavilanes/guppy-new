@@ -1,0 +1,25 @@
+.title{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: #17202A;
+    margin-bottom: 38px;
+    font-weight: 500;
+    font-size: 24px;
+}
+/* ____________________ */
+/* ____________________ */
+/* -------------------- */
+/*      Responsive      */
+/* -------------------- */
+/* ____________________ */
+/* ____________________ */
+@media (max-width: 1200px) {
+    .title{
+        margin-bottom: 15px;
+    }
+}
+@media (max-width: 290px) {
+    .title{
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,174 @@
+.navBar{
+    position: sticky;
+    top: 0;
+    background-color: rgba(255, 255, 255, 0.99);
+    /* background-color: rgba(255, 255, 255, 0.7); */
+    /* backdrop-filter: blur(25px); */
+    /* -webkit-backdrop-filter: blur(25px); */
+    padding: 25px 65px;
+    display: flex;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    transition: all 300ms ease;
+    justify-content: space-between;
+    z-index: 10;
+}
+
+.logoNavBar{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    z-index: 999;
+}
+
+.logoImg{
+    width: 31px;
+    padding-right: 10px;
+}
+
+.logoImgDark{
+    display: none;
+}
+
+.logoText{
+    color: #2598DD;
+    font-weight: 700;
+    margin: 0;
+}
+
+.logoText:hover{
+    transition: all 300ms ease;
+    color: #008ADD;
+}
+
+.routes{
+    justify-content: space-between;
+}
+
+.route{
+    color: #17202A;
+    text-decoration: none;
+    margin: 0 23px;
+}
+
+.route:first-child{
+    margin-right: 23px;
+}
+
+.route:last-child{
+    margin-left: 23px;
+}
+
+.options{
+    display: flex;
+    align-items: center;
+}
+
+.lightDark{
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    border-radius: 0;
+    text-decoration: none;
+    outline: none;
+    cursor: pointer;
+    transform: translateY(-1px);
+}
+
+.icon{
+    margin: 0 10px;
+    color: #17202A;
+    font-size: 19px;
+    transition: all 300ms ease;
+}
+
+.iconLight:hover,
+.iconDark:hover{
+    transform: rotate(-30deg);
+    transition: all 300ms ease;
+}
+
+.iconLight,
+.iconDark{
+    margin-left: 0;
+}
+
+.iconDark,
+body.dark .iconLight{
+    display: none;
+}
+.footer{
+    display: none;
+    background-color: red;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Poppins', sans-serif;
+    transition: all 300ms ease;
+    color: #17202A;
+    background-color: rgba(255, 255, 255, 0.99);
+    box-shadow: #008ADD;
+    z-index: 10;
+    width: 100%;
+    height: 45px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.15);
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.15);
+}
+.footer .route{
+    margin: 0;
+}
+.i, .route_cUs{
+    display: none;
+}
+
+/* ____________________ */
+/* ____________________ */
+/* -------------------- */
+/*      Responsive      */
+/* -------------------- */
+/* ____________________ */
+/* ____________________ */
+
+@media (max-width: 900px) {
+    .route{
+        margin: 0 15px;
+    }
+}
+@media (max-width: 860px) {
+    .navBar{
+        padding: 25px;
+    }
+}
+@media (max-width: 760px) {
+    .route{
+        margin: 0 5px;
+    }
+}
+@media (max-width: 700px) {
+    .routes{
+        display: none;
+    }
+    .footer{
+        display: flex;
+    }
+}
+@media (max-width: 360px) {
+    .options{
+        display: none;
+    }
+    .tEF{
+        display: none;
+    }
+    .i, .route_cUs{
+        display: block;
+    }
+}
+@media (max-width: 270px) {
+    .navBar{
+        padding: 10px;
+    }
+}
+/*230 es el limite soportado*/

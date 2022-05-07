@@ -1,0 +1,41 @@
+.faqContainer{
+	width: 50%;
+	margin: auto;
+}
+
+.faqQuestion{
+	font-weight: 500;
+}
+
+.faqAnswer{
+	padding: 15px;
+}
+
+/* ____________________ */
+/* ____________________ */
+/* -------------------- */
+/*      Responsive      */
+/* -------------------- */
+/* ____________________ */
+/* ____________________ */
+
+@media (max-width: 900px) {
+    .faqContainer{
+		width: 65%;
+	}
+}
+@media (max-width: 700px) {
+    .faqContainer{
+		width: 70%;
+	}
+}
+@media (max-width: 550px) {
+    .faqContainer{
+		width: 90%;
+	}
+}
+@media (max-width: 500px) {
+    .faqContainer{
+		width: 100%;
+	}
+}

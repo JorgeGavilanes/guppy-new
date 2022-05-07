@@ -1,0 +1,24 @@
+.buttonPrincipal{
+    background-color: #2598DD;
+    color: #FFF;
+    padding: 5px 25px;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: all 300ms ease;
+}
+
+.buttonPrincipal:hover{
+    background-color: #008ADD;
+}
+/* ____________________ */
+/* ____________________ */
+/* -------------------- */
+/*      Responsive      */
+/* -------------------- */
+/* ____________________ */
+/* ____________________ */
+@media (max-width: 400px) {
+    .buttonPrincipal{
+        padding: 5px 15px;
+    }
+}

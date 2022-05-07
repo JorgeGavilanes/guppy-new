@@ -1,0 +1,25 @@
+.callToAction{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.ctaDescription{
+    margin-bottom: 38px;
+}
+/* ____________________ */
+/* ____________________ */
+/* -------------------- */
+/*      Responsive      */
+/* -------------------- */
+/* ____________________ */
+/* ____________________ */
+
+@media (max-width: 860px) {
+    .callToAction{
+        padding-bottom: 35px;
+    }
+    .ctaDescription{
+        margin-bottom: 25px;
+    }
+}

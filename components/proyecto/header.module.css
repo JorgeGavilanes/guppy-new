@@ -1,0 +1,105 @@
+.header{
+    width: 100%;
+    margin: auto;
+    height: auto;
+    background: linear-gradient(to right, #fff 0%, #fff 45%, #edf9ff 45%, #edf9ff 100%);
+    font-family: 'Poppins', sans-serif;
+    color: #17202A;
+}
+
+.headerContainer{
+    padding: 100px 50px;
+    display: flex;
+    align-items: center;
+}
+
+.headerImg{
+    width: 60%;
+    height: auto;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+    -webkit-box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+}
+
+.headerTextContainer{
+    width: 40%;
+    padding-left: 50px;
+}
+
+.headerTitle{
+    font-size: 48px;
+    margin-bottom: 35px;
+}
+
+.headerDesc{
+    line-height: 40px;
+    margin-bottom: 35px;
+    font-weight: 500;
+}
+
+/* ____________________ */
+/* ____________________ */
+/* -------------------- */
+/*      Responsive      */
+/* -------------------- */
+/* ____________________ */
+/* ____________________ */
+@media (max-width: 1200px) {
+    .headerImg{
+        width: 50%;
+    }
+    
+    .headerTextContainer{
+        width: 50%;
+        padding-left: 35px;
+    }
+    .headerTitle{
+        font-size: 36px;
+        margin-bottom: 15px;
+    }
+    .headerDesc{
+        margin-bottom: 0;
+    }
+}
+@media (max-width: 900px) {
+    .headerContainer{
+        padding: 50px;
+        display: block;
+    }
+    .headerImg{
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        margin-bottom: 15px;
+        border-radius: 10px;
+    }
+    .headerTextContainer{
+        width: 100%;
+        padding-left: 0;
+    }
+}
+@media (max-width: 860px) {
+    .headerContainer{
+        padding: 15px auto;
+    }
+}
+@media (max-width: 700px) {
+    .headerContainer{
+        padding: 50px 35px;
+    }
+    .headerTitle{
+        font-size: 28px;
+    }
+    .headerDesc{
+        font-size: 18px;
+        line-height: 30px;
+    }
+}
+@media (max-width: 270px) {
+    .headerContainer{
+        padding: 35px 15px;
+    }
+}
+/*230 es el limite soportado*/
