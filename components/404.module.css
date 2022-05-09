@@ -1,0 +1,119 @@
+.header{
+    background: #f7fcff;
+    background-image: url("https://raw.githubusercontent.com/JorgeGavilanes/GuppyMedios/gh-pages/GuppyPage-01.svg");
+    display: flex;
+    align-items: center;
+    padding: 60px 65px;
+    justify-content: space-around;
+    font-family: 'Poppins', sans-serif;
+    transition: all 300ms ease;
+    color: #17202A;
+    min-height: 65vh;
+}
+.headerSection{
+    width: 50%;
+    text-align: center;
+}
+.headerTitle{
+    font-size: 48px;
+}
+.headerDesc{
+    font-size: 28px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    color: #2598DD;
+}
+.headerDescs{
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.w25{
+    width: 25px;
+}
+/* ____________________ */
+/* ____________________ */
+/* -------------------- */
+/*      Responsive      */
+/* -------------------- */
+/* ____________________ */
+/* ____________________ */
+@media (max-width: 1000px) {
+    .headerSection{
+        width: 60%;
+    }
+    
+    .headerTitle{
+        font-size: 40px;
+        line-height: 45px;
+    }
+    .headerDesc{
+        font-size: 26px;
+        margin-bottom: 0;
+    }
+    .headerDescs{
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+}
+@media (max-width: 860px) {
+    .header{
+        padding: 35px 30px;
+    }
+    .headerDescs{
+        line-height: 35px;
+    }
+}
+@media (max-width: 760px) {
+    .header{
+        flex-direction: column;
+    }
+    .headerSection{
+        width: 90%;
+        text-align: center;
+    }
+    .buttons{
+        justify-content: space-around;
+        width: 50%;
+        margin: auto;
+    }
+}
+@media (max-width: 700px) {
+    .header{
+        padding: 25px;
+    }
+    .buttons{
+        width: 285px;
+    }
+}
+@media (max-width: 500px) {
+    .headerDescs{
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .headerTitle{
+        font-size: 30px;
+    }
+    .headerDesc{
+        font-size: 20px;
+    }
+    .buttons{
+        width: fit-content;
+        flex-direction: column;
+    }
+    .w25{
+        height: 15px;
+    }
+}
+@media (max-width: 290px) {
+    .headerTitle{
+        font-size: 24px;
+    }
+    .headerDesc{
+        font-size: 18px;
+    }
+}

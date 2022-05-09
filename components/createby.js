@@ -5,9 +5,10 @@ export default function CreateBy({icon, creator, date}){
     return (
         <section className={styles.createby}>
             <div className={styles.createby_containerImg}>
-                <img 
+                <img
                     src={icon}
                     className={styles.createby_img}
+                    alt="by GuppyDigital"
                 />
             </div>
             <div>
