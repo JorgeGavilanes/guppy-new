@@ -27,10 +27,13 @@ Para este proyecto tuvimos que aprender las bases del modelado 3D con Blender, u
 
 ### Modelado 3D
 
-Para el modelado 3D usamos la imagen de una taza para guiarnos en el modelado y le agregamos las físicas. Al principio
-nos gustó el resultado, la animación se veía bastante bien pero ¿Por qué no mejorarlo?
+Para el modelado 3D usamos la imagen de una taza para guiarnos en el modelado y le agregamos las físicas.
 
 ### Animación
+
+![Taza rota](https://raw.githubusercontent.com/JorgeGavilanes/GUPPYDIGITAL/gh-pages/media/src/CupAnimation.gif)
+
+Al principio nos gustó el resultado, la animación se veía bastante bien pero ¿Por qué no mejorarlo?
 
 ![Taza rota](https://raw.githubusercontent.com/JorgeGavilanes/GuppyMedios/gh-pages/tazaRota.gif)
 
